@@ -5,6 +5,9 @@
 
 > A collection of cookie helpers for Next.js
 
+# Note
+This repo is a fork of the official nookies repository. The only difference is the ability to work with cookies in middlewares via adding support of `NextRequest` and `NextResponse` (see [pull request](https://github.com/maticzav/nookies/pull/524)). 
+
 ## Features
 
 - ✨ SSR support, for setter, parser and destroy
